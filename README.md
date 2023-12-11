@@ -1,6 +1,6 @@
 План тестирования
 TestFraction класс:
-
+[![Coverage Status](https://coveralls.io/repos/github/Anatoliy2001/calcul2.0./badge.svg?branch=main)](https://coveralls.io/github/Anatoliy2001/calcul2.0.?branch=main)
 
 setUp(self): Метод инициализации, который создает экземпляры дробей fraction1 (1/2) и fraction2 (3/4) для использования во всех тестах.
 test_to_decimal(self): Проверяет правильность преобразования дробей в десятичные числа с использованием метода to_decimal.
