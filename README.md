@@ -1,8 +1,10 @@
-План тестирования
-TestFraction класс:
 [![Coverage Status](https://coveralls.io/repos/github/Anatoliy2001/calcul2.0./badge.svg?branch=main)](https://coveralls.io/github/Anatoliy2001/calcul2.0.?branch=main)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Anatoliy2001_calcul2.0.&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Anatoliy2001_calcul2.0.)
 [![Code smells](https://sonarcloud.io/api/project_badges/measure?project=Anatoliy2001_calcul2.0.&metric=code_smells)](https://sonarcloud.io/dashboard?id=Anatoliy2001_calcul2.0.)
+
+План тестирования
+TestFraction класс:
+
 setUp(self): Метод инициализации, который создает экземпляры дробей fraction1 (1/2) и fraction2 (3/4) для использования во всех тестах.
 test_to_decimal(self): Проверяет правильность преобразования дробей в десятичные числа с использованием метода to_decimal.
 TestFractionCalculator класс:
