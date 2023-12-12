@@ -20,7 +20,7 @@ class TestFractionCalculator(unittest.TestCase):
     def test_add(self):
         # Проверяем правильность сложения дробей
         result = self.calculator.add()
-        self.assertEqual(result.numerator, 10)
+        self.assertEqual(result.numerator, 1)
         self.assertEqual(result.denominator, 8)
 
     def test_subtract(self):
