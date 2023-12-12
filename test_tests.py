@@ -42,19 +42,19 @@ class TestFractionCalculator(unittest.TestCase):
         self.assertEqual(result.denominator, 6)
     
     def test_add2(self):
-        result = self.fraction_calculator.add()
+        result = self.calculator.add()
         self.assertEqual(result.to_decimal(), 1.25)
 
     def test_subtract2(self):
-        result = self.fraction_calculator.subtract()
+        result = self.calculator.subtract()
         self.assertEqual(result.to_decimal(), -0.25)
 
     def test_multiply2(self):
-        result = self.fraction_calculator.multiply()
+        result = self.calculator.multiply()
         self.assertEqual(result.to_decimal(), 0.375)
 
     def test_divide2(self):
-        result = self.fraction_calculator.divide()
+        result = self.calculator.divide()
         self.assertEqual(result.to_decimal(), 0.6666666666666666)
 
 if __name__ == '__main__':
