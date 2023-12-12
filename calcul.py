@@ -1,4 +1,5 @@
 import tkinter as tk
+import unittest
 from tkinter import messagebox
 
 # Класс для работы с дробями
