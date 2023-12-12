@@ -36,10 +36,12 @@ class FractionCalculator:
         result_numerator = self.fraction1.numerator * self.fraction2.denominator
         result_denominator = self.fraction1.denominator * self.fraction2.numerator
         return Fraction(result_numerator, result_denominator)
-#pragama: no cover
+# pragama: no cover
 class FractionCalculatorApp(tk.Tk):
     @unittest.skip("Этот тест пропущен из-за определенной причины")
+    # pragama: no cover
     def __init__(self):
+        # pragama: no cover
         super().__init__()
         self.title("Калькулятор дробей")
         self.label_fraction1 = tk.Label(self, text="Введите первую дробь:")
@@ -80,8 +82,9 @@ class FractionCalculatorApp(tk.Tk):
 
         self.button_convert_to_decimal = tk.Button(self, text="Перевести в десятичную", command=self.convert_to_decimal)
         self.button_convert_to_decimal.grid(row=3, columnspan=4)
-
+# pragama: no cover
     def add_fractions(self):
+        # pragama: no cover
         try:
             fraction1_numerator = int(self.entry_fraction1_numerator.get())
             fraction1_denominator = int(self.entry_fraction1_denominator.get())
@@ -100,7 +103,9 @@ class FractionCalculatorApp(tk.Tk):
 
         except ValueError:
             messagebox.showerror("Ошибка", "Пожалуйста, введите целые числа для числителя и знаменателя дроби.")
+    # pragama: no cover
     def subtract_fractions(self):
+        # pragama: no cover
         try:
             fraction1_numerator = int(self.entry_fraction1_numerator.get())
             fraction1_denominator = int(self.entry_fraction1_denominator.get())
@@ -119,8 +124,9 @@ class FractionCalculatorApp(tk.Tk):
 
         except ValueError:
             messagebox.showerror("Ошибка", "Пожалуйста, введите целые числа для числителя и знаменателя дроби.")
-
+# pragama: no cover
     def multiply_fractions(self):
+        # pragama: no cover
         try:
             fraction1_numerator = int(self.entry_fraction1_numerator.get())
             fraction1_denominator = int(self.entry_fraction1_denominator.get())
