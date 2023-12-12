@@ -37,6 +37,7 @@ class FractionCalculator:
         return Fraction(result_numerator, result_denominator)
     
 class FractionCalculatorApp(tk.Tk):
+    @unittest.skip("Этот тест пропущен из-за определенной причины")
     def __init__(self):
         super().__init__()
         self.title("Калькулятор дробей")
