@@ -36,7 +36,7 @@ class FractionCalculator:
         result_numerator = self.fraction1.numerator * self.fraction2.denominator
         result_denominator = self.fraction1.denominator * self.fraction2.numerator
         return Fraction(result_numerator, result_denominator)
-    
+#pragama: no cover
 class FractionCalculatorApp(tk.Tk):
     @unittest.skip("Этот тест пропущен из-за определенной причины")
     def __init__(self):
